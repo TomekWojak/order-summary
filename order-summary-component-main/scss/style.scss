@@ -92,7 +92,6 @@ main {
                     font-size: 1.5rem;
                     color: hsl(245, 75%, 52%);
                     font-weight: bold;
-                    transition: color .3s;
 
                         &:hover {
                             text-decoration: none;
@@ -146,8 +145,16 @@ main {
 
 
 .attribution {
+    text-align: center;
     padding: 2em;
     font-size: 1.3rem;
+
+        a {
+            text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                }
+        }
    
 }
 

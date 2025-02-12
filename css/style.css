@@ -87,7 +87,6 @@ main {
   font-size: 1.5rem;
   color: hsl(245, 75%, 52%);
   font-weight: bold;
-  transition: color 0.3s;
 }
 .card__plan a:hover {
   text-decoration: none;
@@ -132,8 +131,15 @@ main {
 }
 
 .attribution {
+  text-align: center;
   padding: 2em;
   font-size: 1.3rem;
+}
+.attribution a {
+  text-decoration: none;
+}
+.attribution a:hover {
+  text-decoration: underline;
 }
 
 @media (375px <= width) {
